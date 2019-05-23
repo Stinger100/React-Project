@@ -1,0 +1,16 @@
+.ServicesComponent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 10;
+    .ServicesColumn {
+        flex: 0 50%;
+     
+    }
+}
+
+@media screen and (max-width: 496px) {
+  .ServicesComponent .ServicesColumn {
+    flex: 0 100%;
+  }
+}

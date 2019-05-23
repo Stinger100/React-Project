@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
+
+$glego: 'Glegoo', serif;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $glego;
+    font-weight: bold;
+}
+
+p {
+    font-family: Tahoma, sans-serif;
+}
+
+button {
+    font-family: Tahoma, sans-serif;
+}

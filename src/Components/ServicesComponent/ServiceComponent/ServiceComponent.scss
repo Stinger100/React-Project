@@ -1,0 +1,36 @@
+.ServiceComponent {
+  background: #ffffff;
+  color: #003366;
+  margin: 5px;
+  padding: 43px 15px;
+  font-size: 10px;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  
+    .UiButton {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      color: #003366;
+    }
+   
+  }
+
+.ServiceEffect {
+  background: #8B008B;
+  color: #ffffff;
+  padding: 43px 15px;
+  margin: 5px;
+  font-size: 10px;
+    .UiButton {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      color: #ffffff;
+      .arrow {
+        fill: #ffffff;
+      }
+    } 
+ }

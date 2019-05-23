@@ -1,0 +1,95 @@
+
+.App {
+  position: relative;
+  width: 100%;
+  background-color: #d3d3d3;
+  display: flex;
+
+  .wrapper {
+    display: flex;
+    height: 100vh;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .App-image {
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        height: 230px;
+    }
+    .App-image::before {
+      position: absolute;
+      content: '';
+      z-index: 1;
+      width: 100%;
+      height: 230px;
+      background: url('./Images/top_billede.jpg');
+      background-position-y: 30%;
+      background-position-x: 60%;
+    }
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .App {
+      height: auto;
+
+      .wrapper {
+        width: 600px;
+        flex-direction: column;
+      }@media screen and (max-width: 1024px) {
+        .App {
+          height: auto;
+    
+          .wrapper {
+            width: 700px;
+            flex-direction: column;
+          }
+    
+          .App-image {
+            height: 250px;
+          }
+    
+          .App-image::before {
+            height: 350px;
+            background-position-y: 30%;
+            background-position-x: 40%;
+          }
+        }
+       }
+
+      .App-image {
+        height: 250px;
+      }
+
+      .App-image::before {
+        height: 250px;
+        background-position-y: 30%;
+        background-position-x: 40%;
+      }
+    }
+   }
+    
+     @media screen and (max-width: 496px) {
+      .App {
+        height: 100%;
+
+        .App-image::before {
+          height: 250px;
+          background-position-y: 30%;
+          background-position-x: 40%;
+        }
+        .wrapper {
+          height: auto;
+          flex-direction: column;
+          padding: 0 10px;
+          margin: 200px 0;
+        }
+      }
+    }
+
+

@@ -1,0 +1,59 @@
+.EventComponent {
+    background: whitesmoke;
+    margin: 5px;
+    z-index: 10;
+    
+    .Event-Image {
+        background: url('../../Images/nyheds_billede.jpg') no-repeat center;
+        position: relative;
+        background-size: cover;
+        margin: 0 auto;
+        padding-bottom: 200px;
+       
+    }
+    .Event-Description{
+        padding: 5px 20px 20px 20px;
+        font-size: 10px;
+        background:	#00456A;
+        color: #C0C0C0;
+    .Event-h2 {
+        color: #ffffff;
+    }
+    }
+    .Event-Date {
+        position: absolute;
+        background: #ffffff;
+        top: 20px;
+        left: 20px;
+        padding: 7px;
+
+        .day {
+            color: #00456A;
+            font-size: 15px;
+            font-weight: bold;
+            margin: 0;
+            line-height: 1;
+        }
+        .month {
+            color: #33C7FF;
+            font-size: 12px;
+            margin: 0;
+            line-height: 1;
+        }
+    }
+
+    .UiButton {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        color: #ffffff;
+        
+      }
+}
+.Event-Description:hover {
+    background: #8B008B;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
